@@ -11,7 +11,11 @@ export default function evenGame() {
     if (randomNumber % 2 === 0 && answer === 'yes' || randomNumber % 2 === 1 && answer === 'no') {
       console.log('Correct!');
     } else {
-      console.log(`Let's try again, ${name}!`);
+      if (randomNumber % 2 === 0) {
+        console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes' \nLet's try again, ${name}!`);
+      } else {
+        console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no' \nLet's try again, ${name}!`);
+      }
       break;
     }
     if (i === 2) {
