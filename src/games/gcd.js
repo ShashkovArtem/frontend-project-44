@@ -8,7 +8,7 @@ export default function gcdGame() {
     let firstNumber = getRandomInt();
     let secondNumber = getRandomInt();
     const question = `${firstNumber} ${secondNumber}`;
-    let result = 1;
+    let result = Math.max(firstNumber, secondNumber);
     while (firstNumber !== 0 && secondNumber !== 0) {
       if (firstNumber > secondNumber) {
         firstNumber %= secondNumber;
