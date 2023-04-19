@@ -2,7 +2,7 @@ import getRandomInt from '../random.js';
 import gameCore from '../index.js';
 
 export default function calcGame() {
-  const noteToCalc = 'what is the result of the expression?';
+  const noteToCalc = 'What is the result of the expression?';
 
   const toDoCalc = () => {
     const firstNumber = getRandomInt();
