@@ -18,5 +18,5 @@ export default function gameCore(gameNote, toDo) {
       return;
     }
   }
-  console.log(`Congratulations! ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 }
