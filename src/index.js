@@ -8,8 +8,8 @@ export default function gameCore(gameNote, toDo) {
   const maxRound = 3;
   for (let i = 0; i < maxRound; i += 1) {
     const questionAndResult = toDo();
-    console.log('Question: ', questionAndResult[0]);
-    const userAnswer = readlineSync.question('Your answer: ');
+    console.log('Question:', questionAndResult[0]);
+    const userAnswer = readlineSync.question('Your answer:');
     const rightAnswer = questionAndResult[1];
     if (userAnswer === rightAnswer) {
       console.log('Correct!');
