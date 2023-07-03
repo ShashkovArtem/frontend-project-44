@@ -1,11 +1,12 @@
 import readlineSync from 'readline-sync';
 
+const maxRound = 3;
+
 export default function gameCore(gameNote, toDo) {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(gameNote);
-  const maxRound = 3;
   for (let i = 0; i < maxRound; i += 1) {
     const questionAndResult = toDo();
     console.log('Question:', questionAndResult[0]);

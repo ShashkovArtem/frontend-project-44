@@ -1,12 +1,31 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/ShashkovArtem/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/ShashkovArtem/frontend-project-44/actions)
 
-https://asciinema.org/a/s8NpJxE95kpe1zJIeY0kRdXQn (even)
+Setup:
 
-https://asciinema.org/a/Pz2mMFaZmY3S2btIi4Zfnj5pa (calc)
+make install
 
-https://asciinema.org/a/YZ9jBtElwznh280G5Xnp3nvv7 (gcd)
+Run Brain-even game:
+brain-even
 
-https://asciinema.org/a/HjOXOPIO0b4Dt5u2aRyKEOeEU (progression)
+[![asciicast](https://asciinema.org/a/gy0kRrsEYD0fA89nLIC9Ea1fz.svg)](https://asciinema.org/a/gy0kRrsEYD0fA89nLIC9Ea1fz)
 
-https://asciinema.org/a/L7PPyfGiztAIgazV4p3EwlEMK (prime)
+Run Brain-calc game:
+brain-calc
+
+[![asciicast](https://asciinema.org/a/m9es5mR9USp8oBTHMsSeVhjgf.svg)](https://asciinema.org/a/m9es5mR9USp8oBTHMsSeVhjgf)
+
+Run Brain-gcd game:
+brain-gcd
+
+[![asciicast](https://asciinema.org/a/T0JGwdjo9ZHEO8lPzlNGmwAwQ.svg)](https://asciinema.org/a/T0JGwdjo9ZHEO8lPzlNGmwAwQ)
+
+Run Brain-progression game:
+brain-progression
+
+[![asciicast](https://asciinema.org/a/lXitGGE8fjMz61d98CaNnn7fA.svg)](https://asciinema.org/a/lXitGGE8fjMz61d98CaNnn7fA)
+
+Run Brain-prime game:
+brain-prime
+
+[![asciicast](https://asciinema.org/a/LSaTNLmPvbbjp33Ec3k837KFT.svg)](https://asciinema.org/a/LSaTNLmPvbbjp33Ec3k837KFT)

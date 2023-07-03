@@ -1,22 +1,21 @@
 import getRandomInt from '../random.js';
 import gameCore from '../index.js';
 
+const findGcd = (firstNumber, secondNumber) => {
+  if (secondNumber === 0) {
+    return firstNumber;
+  }
+  return findGcd(secondNumber, firstNumber % secondNumber);
+};
+
 export default function gcdGame() {
   const noteToGcd = 'Find the greatest common divisor of given numbers.';
 
   const toDoGcd = () => {
-    let firstNumber = getRandomInt();
-    let secondNumber = getRandomInt();
+    const firstNumber = getRandomInt();
+    const secondNumber = getRandomInt();
     const question = `${firstNumber} ${secondNumber}`;
-    let result = Math.max(firstNumber, secondNumber);
-    while (firstNumber !== 0 && secondNumber !== 0) {
-      if (firstNumber > secondNumber) {
-        firstNumber %= secondNumber;
-      } else {
-        secondNumber %= firstNumber;
-      }
-      result = firstNumber + secondNumber;
-    }
+    const result = findGcd(firstNumber, secondNumber);
     return [question, result.toString()];
   };
   gameCore(noteToGcd, toDoGcd);
